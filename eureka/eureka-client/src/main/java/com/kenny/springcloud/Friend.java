@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class Friend {
     private String name;
-    private int port;
+    private String port;
 
 }
