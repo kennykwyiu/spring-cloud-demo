@@ -49,6 +49,6 @@ public class Controller {
         Friend friend = new Friend();
         friend.setName("Eureka Consumer");
 
-        return restTemplate.postForObject( target, friend, Friend .class);
+        return restTemplate.postForObject( target, friend, Friend.class);
     }
 }
